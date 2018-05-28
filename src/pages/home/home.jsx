@@ -8,7 +8,9 @@ import PropTypes from 'prop-types'
 import API from '../../api/api';
 import envconfig from '../../envconfig/envconfig';
 
+import mixin, { padStr } from '../../utils/mixin';
 
+@mixin({padStr})
 
 class Home extends React.Component{
     render(){
